@@ -1,0 +1,71 @@
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "黑体";
+}
+body{
+	background: #f6f6f6;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+ul,li,dl,dt,dd{
+	list-style: none;
+}
+span,img,a,em{
+	display: block;
+}
+img{
+	width: 100%;
+}
+p{
+	
+	overflow: hidden;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box !important;
+	-webkit-box-orient:vertical;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.animated{
+	opacity: 1;
+}
+#bg{
+	position: fixed;
+}
+main{
+	height: 100%;
+	width: 100%;
+	color: #fff;
+	padding-left: 12%;
+	transition: all .5s;
+}
+#container{
+	width: 55%;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+	padding: 3vw 0;
+	color: #000;
+}
+@media( max-width:1200px){
+	#container{
+		width: 70%;
+	}
+}
+@media(max-width:875px){
+	#container{
+		width: 90%;
+		padding: 5vw 0;
+	}
+}
+@media(max-width:650px){
+	#container{
+		width: 100%;
+	}
+}

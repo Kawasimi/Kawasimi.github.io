@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>博客</title>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/animate.min.css">
+	<link rel="stylesheet" href="/font/style.css">
+	
+	<link rel="stylesheet" href="/css/menu.css">
+	<link rel="stylesheet" href="/css/header.css">
+
+
+	<link rel="stylesheet" href="/css/content.css">
+
+
+	<link rel="stylesheet" href="/css/wave-style.css">
+	<link rel="stylesheet" href="/css/footer.css">
+	
+	
+	
+</head>
+
+<body>
+	<div id="Mask"></div>
+	<div id="menu">
+		<a href="javascript:;" class="menu-btn">
+			<span id="fork"><img src="images/menu_img/fork.png"></span>
+			<span id="nav"><img src="images/menu_img/nav.png"></span>
+		</a>
+		<div id="brand">
+			<div class="bg-transparent"></div>
+			<div id="brand-bg"><img src="images/menu_img/2.jpg" alt></div>
+			
+			<div id="head-portrait">
+				<div>
+					<a href="home.html"><img src="images/menu_img/1.jpg" alt></a>
+					<span id="name">KAWASUMI</span>
+					<span id="email">330384608@qq.com</span>
+				</div>
+			</div>
+		</div>
+		<div id="menu-nav">
+			<ul>
+				
+				<li class="menu-click"><a href="/" target="_parent"><i class="icon-home"></i><span>主页</span></a></li>
+				
+				
+				<li class="menu-click"><a href="/archives" target="_parent"><i class="icon-home"></i><span>归档</span></a></li>
+				
+				
+				<li class="menu-click"><a href="/about" target="_parent"><i class="icon-home"></i><span>关于</span></a></li>
+				
+				
+				<li class="menu-click"><a href="/tags" target="_parent"><i class="icon-home"></i><span>标签</span></a></li>
+				
+				
+			</ul>
+		</div>
+
+	</div>
+	<main>
+		<header id="top-header">
+    <div id="header-title"><span>KAWASUMI's Blog</span></div>
+    <div id="header-info">
+        <a href="javascript:;" id="search">
+            <input type="text" placeholder="输入感兴趣的关键字">
+            <em class="icon-search"></em>
+            <span></span>
+        </a>
+    <a href="javascript:;" id="share"><em class="icon-share2"></em></a>
+    </div>
+</header>
+<div id="contant-header">
+    <span><img src="images/background_img/333.jpg" alt></span>
+    <div>
+        <h1 class="element-animation animated" data-animation="fadeInLeft">
+            KAWASUMI's Blog
+        </h1>
+        <p class="text"></p>
+    </div>
+    <script>
+        function text(str){
+           var arr=[];
+           var text=document.getElementsByClassName("text")[0];
+           for(var i=0;i<str.length;i++){arr[i]=str[i];}
+           var p=document.createElement("p");
+           text.appendChild(p);
+           var index=0;
+           var obj=setInterval(function(){
+               if(index<arr.length){
+                       var text=document.createTextNode(arr[index]);
+                       p.appendChild(text);
+                       index++;
+               }
+               
+               },100);
+
+        }
+        window.onload=function(){
+          text("学习弯道超车的技巧！");	
+        }
+    </script>
+</div>
+		
+		<div id="container">
+			
+<link rel="stylesheet" href="/css/archives.css">
+
+<div id="archives" class="element-animation animated" data-animation="fadeInUp">
+	<div id="archives-content">
+		<article>
+			<span><a href="javascript:;"><img src="images/article/article_01.jpg" alt><h1>关于</h1></a></span>
+			<div class="_label">
+				<div><span><i class="icon-calendar"></i>2020年04月21日</span><span><i class="icon-stats-bars"></i>1.5k字</span><span><i class="icon-clock"></i>大概4分钟</span></div>
+			</div>
+			<div class="archive-text">
+				<p>标题 小标题
+
+内容
+
+					...</p>
+			</div>
+			
+		</article>
+		
+	</div>
+</div>
+<div id="archives-nav" class="element-animation animated" data-animation="fadeInRight">
+	<h2>TOC</h2>
+	<ol>
+		<li><a href="#text_1">1.自我介绍</a></li>
+		<li><a href="#text_2">2.自我介绍</a></li>
+		<li><a href="#text_3">3.自我介绍</a></li>
+	</ol>
+</div>
+
+
+	
+			
+		</div>
+		
+		<!-- footer -->
+		<footer class="element-animation animated" data-animation="fadeInUp">
+			<div class="wave-box">
+				<div class="marquee-box marquee-up" id="marquee-box">
+					<div class="marquee">
+						<div class="wave-list-box" id="wave-list-box1">
+							<ul>
+								<li>
+									<img height="60" alt="波浪" src="images/footer_img/wave_02.png">
+								</li>
+							</ul>
+						</div>
+						<div class="wave-list-box" id="wave-list-box2">
+							<ul>
+								<li>
+									<img height="60" alt="波浪" src="images/footer_img/wave_02.png">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="marquee-box" id="marquee-box3">
+					<div class="marquee">
+						<div class="wave-list-box" id="wave-list-box4">
+							<ul>
+								<li>
+									<img height="60" alt="波浪" src="images/footer_img/wave_01.png">
+								</li>
+							</ul>
+						</div>
+						<div class="wave-list-box" id="wave-list-box5">
+							<ul>
+								<li>
+									<img height="60" alt="波浪" src="images/footer_img/wave_01.png">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div id="footer-content">
+				<p><span>&copy;</span>2020 KAWASIMI's Blog Power</p>
+				<p>by KAWASIMI</p>
+			</div>
+		</footer>
+	</main>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			isScroll.init('.element-animation');
+		});
+	</script>
+	<div id="return-Top">
+		<div><i class="icon-circle-up"></i></div>
+	</div>
+
+
+	<script src="/js/jquery-3.4.1.min.js"></script>
+	<script src="/js/isScroll.js"></script>
+	<script src="/js/menu.js"></script>
+	<script src="/js/index.js"></script>
+	<script src="/js/script.js"></script>
+	<script src="/js/archives.js"></script>
+
+	
+</body>
+</html>
+
+
